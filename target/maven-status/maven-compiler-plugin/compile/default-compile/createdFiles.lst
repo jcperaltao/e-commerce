@@ -63,6 +63,7 @@ com\example\ecommerce\proyecto\security\jwt\JwtAuthenticationFilter.class
 com\example\ecommerce\proyecto\repository\UserRepository.class
 com\example\ecommerce\proyecto\service\implement\CategoryServiceImpl.class
 com\example\ecommerce\proyecto\dto\AuthenticationResponse.class
+com\example\ecommerce\proyecto\exception\RoleConflictException.class
 com\example\ecommerce\proyecto\entity\Role.class
 com\example\ecommerce\proyecto\entity\OrderItem.class
 com\example\ecommerce\proyecto\controller\AuthController.class

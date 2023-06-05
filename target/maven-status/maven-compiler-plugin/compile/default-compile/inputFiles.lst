@@ -54,6 +54,7 @@ C:\Proyectos\e-commerce\src\main\java\com\example\ecommerce\proyecto\controller\
 C:\Proyectos\e-commerce\src\main\java\com\example\ecommerce\proyecto\controller\AuthController.java
 C:\Proyectos\e-commerce\src\main\java\com\example\ecommerce\proyecto\ProyectoApplication.java
 C:\Proyectos\e-commerce\src\main\java\com\example\ecommerce\proyecto\dto\UserDto.java
+C:\Proyectos\e-commerce\src\main\java\com\example\ecommerce\proyecto\exception\RoleConflictException.java
 C:\Proyectos\e-commerce\src\main\java\com\example\ecommerce\proyecto\dto\EmailNotification.java
 C:\Proyectos\e-commerce\src\main\java\com\example\ecommerce\proyecto\service\implement\ProductServiceImpl.java
 C:\Proyectos\e-commerce\src\main\java\com\example\ecommerce\proyecto\entity\Product.java

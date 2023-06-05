@@ -70,5 +70,15 @@ public class ErrorHandler {
     return ResponseEntity.status(status).body(response);
   }
 
+  @ExceptionHandler(RoleConflictException.class)
+  public ResponseEntity<ErrorResponse> handleRoleConflictException(Exception ex) {
 
+    HttpStatus status = HttpStatus.CONFLICT;
+    ErrorResponse error = ErrorResponse.builder()
+            .code(status.value())
+            .error("Role Name Already Exists")
+            .message(ex.getMessage())
+            .build();
+    return ResponseEntity.status(status).body(error);
+  }
 }
